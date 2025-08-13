@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanAwAi - Support & Help Center</title>
+    <meta name="description" content="Get help and support for PlanAwAi, your AI-powered activity planning companion. Find answers to common questions, troubleshooting guides, and contact information.">
+    <meta name="keywords" content="PlanAwAi, activity planning, AI travel planner, support, help, FAQ">
+    <link rel="icon" type="image/png" href="./icon.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #FAF7F3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563EB 0%, #1d4ed8 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            font-size: 2.2rem;
+            color: #1f2937;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 1.5rem;
+            color: #374151;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+
+        .section p, .section li {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5e7eb;
+        }
+
+        .feature-card h4 {
+            font-size: 1.3rem;
+            color: #1f2937;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: #6b7280;
+            margin-bottom: 0;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-question {
+            background: #f9fafb;
+            padding: 20px;
+            font-weight: 600;
+            color: #1f2937;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            color: #4b5563;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-info h3 {
+            color: #2563EB;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #2563EB;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .troubleshooting-steps {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .troubleshooting-steps ol {
+            padding-left: 20px;
+        }
+
+        .troubleshooting-steps li {
+            margin-bottom: 10px;
+        }
+
+        .privacy-highlight {
+            background: #eff6ff;
+            border-left: 4px solid #2563EB;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2.2rem;
+            }
+            
+            .section h2 {
+                font-size: 1.8rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="./icon.png" alt="PlanAwAi App Icon" class="app-icon">
+                <h1>PlanAwAi</h1>
+                <p>Your AI-Powered Activity Planning Companion - Support & Help Center</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- App Overview Section -->
+            <section class="section">
+                <h2>About PlanAwAi</h2>
+                <p>PlanAwAi is your personal AI concierge that curates and plans your perfect outing—anywhere in the world. Whether it's a weekend adventure, spontaneous date, or just "something to do," our app removes the friction of planning so you can focus on experiencing life to the fullest.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h4>🤖 AI-Powered Suggestions</h4>
+                        <p>Our intelligent system learns your preferences and suggests activities that match your vibe, location, and schedule.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📍 Location-Based Planning</h4>
+                        <p>Get personalized recommendations for activities in any city or location worldwide.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>⏰ Smart Scheduling</h4>
+                        <p>Generate optimized itineraries with perfect timing, including travel time between activities.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💰 Complete Details</h4>
+                        <p>Get pricing, booking links, addresses, and all the information you need to execute your plan.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Getting Started Section -->
+            <section class="section">
+                <h2>Getting Started</h2>
+                <div class="troubleshooting-steps">
+                    <h3>Creating Your First Plan</h3>
+                    <ol>
+                        <li><strong>Open PlanAwAi</strong> and tap "Create a plan" on the home screen</li>
+                        <li><strong>Enter your location</strong> - This can be your current location or anywhere you're planning to visit</li>
+                        <li><strong>Select your date</strong> - Choose when you want to do these activities</li>
+                        <li><strong>Describe your vibe</strong> - Tell us what you're in the mood for (e.g., "romantic dinner", "outdoor adventure", "cultural exploration")</li>
+                        <li><strong>Browse AI suggestions</strong> - Review the curated list of activities that match your preferences</li>
+                        <li><strong>Select activities</strong> - Choose the ones that interest you most</li>
+                        <li><strong>Review your plan</strong> - See your optimized itinerary with timing and details</li>
+                        <li><strong>Save and enjoy</strong> - Your plan is ready to execute!</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="section">
+                <h2>Key Features Explained</h2>
+                
+                <h3>🎯 Personalized Activity Discovery</h3>
+                <p>PlanAwAi uses advanced AI to understand your preferences and suggest activities that match your mood, interests, and location. The more you use the app, the better it gets at understanding what you love.</p>
+                
+                <h3>🔄 Activity Swapping</h3>
+                <p>Don't like a suggested activity? No problem! You can easily swap any activity in your plan for similar alternatives without starting over.</p>
+                
+                <h3>📚 Plan History</h3>
+                <p>All your plans are automatically saved so you can revisit past adventures, duplicate successful plans, or get inspired for future outings.</p>
+                
+                <h3>🌟 Favorites System</h3>
+                <p>Mark activities as favorites to help our AI learn your preferences and suggest even better matches in the future.</p>
+            </section>
+
+            <!-- Privacy & Permissions Section -->
+            <section class="section">
+                <h2>Privacy & Permissions</h2>
+                
+                <div class="privacy-highlight">
+                    <h3>📍 Location Access</h3>
+                    <p><strong>Why we need it:</strong> PlanAwAi needs your location to suggest amazing activities in your area that match your vibe. We only access your location when you're using the app and never share this information with third parties.</p>
+                </div>
+                
+                <h3>🔒 Your Data is Safe</h3>
+                <p>We take your privacy seriously. Your personal information, preferences, and location data are encrypted and stored securely. We never sell your data to third parties, and you can delete your account and all associated data at any time.</p>
+                
+                <h3>🎯 How We Use Your Information</h3>
+                <ul>
+                    <li>Provide personalized activity recommendations</li>
+                    <li>Improve our AI suggestions based on your preferences</li>
+                    <li>Save your plans for easy access</li>
+                    <li>Enhance app performance and user experience</li>
+                </ul>
+            </section>
+
+            <!-- Troubleshooting Section -->
+            <section class="section">
+                <h2>Troubleshooting</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">The app isn't finding activities in my location</div>
+                    <div class="faq-answer">
+                        <p>Try these steps:</p>
+                        <ul>
+                            <li>Make sure location services are enabled for PlanAwAi in your device settings</li>
+                            <li>Check that you have a stable internet connection</li>
+                            <li>Try entering a more specific location (e.g., "Downtown Seattle" instead of just "Seattle")</li>
+                            <li>If you're in a remote area, try searching for activities in the nearest major city</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">The AI suggestions don't match what I'm looking for</div>
+                    <div class="faq-answer">
+                        <p>Help us understand you better:</p>
+                        <ul>
+                            <li>Be more specific in your description (e.g., "quiet coffee shops with WiFi" instead of "coffee")</li>
+                            <li>Use the activity swapping feature to find better matches</li>
+                            <li>Mark activities as favorites to help our AI learn your preferences</li>
+                            <li>Try different keywords or phrases to describe what you're looking for</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">The app is running slowly or crashing</div>
+                    <div class="faq-answer">
+                        <p>Try these solutions:</p>
+                        <ul>
+                            <li>Close and restart the app</li>
+                            <li>Restart your device</li>
+                            <li>Make sure you have the latest version of PlanAwAi installed</li>
+                            <li>Check that your device has sufficient storage space</li>
+                            <li>If problems persist, contact our support team</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Is PlanAwAi free to use?</div>
+                    <div class="faq-answer">
+                        <p>PlanAwAi offers both free and premium features. You can create and save plans for free, with premium features available for enhanced personalization and additional planning tools.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Can I use PlanAwAi offline?</div>
+                    <div class="faq-answer">
+                        <p>While you need an internet connection to discover new activities and create plans, you can view your saved plans offline once they're created.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How does the AI learn my preferences?</div>
+                    <div class="faq-answer">
+                        <p>Our AI learns from your activity selections, favorites, and the types of plans you create and complete. The more you use PlanAwAi, the better it becomes at suggesting activities you'll love.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Can I share my plans with friends?</div>
+                    <div class="faq-answer">
+                        <p>Yes! You can easily share your plans with friends and family through various sharing options available in the app.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What devices are supported?</div>
+                    <div class="faq-answer">
+                        <p>PlanAwAi is available for iOS devices running iOS 13.0 or later, including iPhone and iPad.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- System Requirements Section -->
+            <section class="section">
+                <h2>System Requirements</h2>
+                <div class="troubleshooting-steps">
+                    <h3>iOS Requirements</h3>
+                    <ul>
+                        <li><strong>iOS Version:</strong> iOS 13.0 or later</li>
+                        <li><strong>Devices:</strong> iPhone and iPad compatible</li>
+                        <li><strong>Storage:</strong> At least 100MB of free space</li>
+                        <li><strong>Internet:</strong> Active internet connection required for activity discovery</li>
+                        <li><strong>Location Services:</strong> Optional but recommended for best experience</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section">
+                <h2>Contact Support</h2>
+                <div class="contact-info">
+                    <h3>Need More Help?</h3>
+                    <p>Our support team is here to help you get the most out of PlanAwAi.</p>
+                    <p><strong>Email:</strong> <a href="mailto:devopsdevops0@gmail.com">devopsdevops0@gmail.com</a></p>
+                    <p><strong>Response Time:</strong> We typically respond within 24 hours</p>
+                    <p><strong>App Version:</strong> 1.0.0</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PlanAwAi by Astra Solutions. All rights reserved.</p>
+            <p>Made with ❤️ to help you discover amazing experiences</p>
+        </div>
+    </footer>
+</body>
+</html>
